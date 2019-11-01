@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    /* font-size: 1.6rem; */
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+/* HEADER AREA */
+
+
+header{
+    text-align: center;
+    color: hsl(234, 12%, 34%);
+    margin-top: 2.5rem;
+    
+}
+
+header h1 {
+    padding: 0px;
+    margin: 0px;
+}
+header .heading-light {
+    font-weight: 200;
+    font-size: 4rem;
+    
+}
+
+header .heading-bold {
+    font-weight: 600;
+    font-size: 4rem;
+    
+}
+
+header .heading-text {
+    font-weight: 200;
+    font-size: 1.6rem;
+    width: 90%;
+    margin: 0 auto;
+    color: hsl(229, 6%, 66%);
+
+}
+
+
+/* CARDS Area */
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+
+.col {
+    width: 33%;
+    max-width: 40rem;
+    
+}
+
+.col-2-item {
+    margin: 0 1rem;
+}
+
+.card-div {
+    border-radius: 3px;
+    overflow: hidden;
+    font-size: 1.6rem;
+    box-shadow: -0.3rem 1.2rem 3.5rem -1.7rem hsla(228, 6%, 66%, 0.747);
+    margin: 4rem 0;
+    min-height: 24rem;
+    text-align: left;
+    
+}
+
+.card-div .card-line {
+    width: 100%;
+    height: .3rem;
+}
+
+.card-div #bg-cyan {
+    background-color: hsl(180, 62%, 55%);
+}
+
+.card-div #bg-red {
+    background-color: hsl(0, 78%, 62%);
+}
+
+.card-div #bg-orange {
+    background-color: hsl(34, 97%, 64%);
+}
+
+.card-div #bg-blue {
+    background-color: hsl(212, 86%, 64%);
+}
+
+.card-content {
+    padding: 2rem 2.8rem;
+    /* position: absolute; */
+}
+
+.card-content .card-text-detail{
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+    
+}
+
+.card-content .card-img {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+
+
+@media only screen and (max-width: 875px) {
+    .row {
+        display: block;
+        margin: 0 auto;
+    }
+    .col{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .col-2-item {
+        
+        
+    }
+}
+
+
+
+/* Footer */
+
+footer{
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+    font-size: 1.1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: hsl(234, 12%, 34%);
+}
